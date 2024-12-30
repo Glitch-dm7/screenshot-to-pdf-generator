@@ -1,0 +1,20 @@
+{
+  "name": "skin-analyzer-qr-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node src/index.js",
+    "generate-qr": "node src/utils/screenshot.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "archiver": "^7.0.1",
+    "csv-parser": "^3.0.0",
+    "express": "^4.21.1",
+    "puppeteer": "^23.9.0"
+  }
+}
